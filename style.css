@@ -1,6 +1,6 @@
 /* using . allows you to call on a class in css */
 body {
-  background-color: powderblue;
+  background-color: greenyellow;
 }
 .head {
   font-size: 4rem; /* sets background color around the .head text */
@@ -9,14 +9,16 @@ body {
 
 .beach {
   background-image: url(media/beach.jpg); /* sets the background around the .beach text */
-  height: 50vh; /* sets the height of the element (vh operates in relation to the screen's height */
-  border: 8px solid black; /* creates a colored border around the element */
+  height: 5vh; /* sets the height of the element (vh operates in relation to the screen's height */
+  font-size: 3rem;
+  text-align: center;
+  /* creates a colored border around the element */
 }
 
 .beta {
   background-color: royalblue;
-  width: 50vw; /* sets the width of the element (vw operates in relation to the screen's width */
-  padding: 20px 8px 6px 7px; /* adds padding to the inside of an element in the order of top, right, bottom, and left. padding is the distance of an element to its border. */
+  width: 20vw; /* sets the width of the element (vw operates in relation to the screen's width */
+  padding: 15px 8px 6px 6px; /* adds padding to the inside of an element in the order of top, right, bottom, and left. padding is the distance of an element to its border. */
 }
 
 /*using # allows you to call on an id in css */
@@ -26,4 +28,21 @@ body {
   color: white; /* sets the color of the element, in this case it's the font size */
   text-align: right; /* places text on the right side of an element */
   font-size: 5vh; /* changes font size */
+}
+.parent {
+  border: 5px solid red;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 200px;
+}
+.child {
+  border: 3px solid green;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.meme {
+  padding: 40px 40px 400px 400px;
 }
