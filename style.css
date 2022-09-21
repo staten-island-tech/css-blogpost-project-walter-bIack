@@ -41,27 +41,14 @@ body {
 }
 
 /*using # allows you to call on an id in css */
-#beta2 {
+#beta {
   width: 75vw;
   margin: 50px 8px 6px 20px; /* sets the margin around an element in the order of top, right, bottom, left. margin is the distance between an element and the elements around it.*/
   color: white; /* sets the color of the element, in this case it's the font size */
   text-align: right; /* places text on the right side of an element */
   font-size: 5vh; /* changes font size */
 }
-.parent {
-  border: 5px solid red;
-  height: 500px;
-  width: 500px;
-  position: relative;
-  margin-top: 200px;
-}
-.child {
-  border: 3px solid green;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 .meme {
   margin: 5px auto;
   height: 600px;
